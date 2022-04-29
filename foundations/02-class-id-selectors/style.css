@@ -1,0 +1,19 @@
+.odds{
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second{
+    color: blue;
+    font-size: 36px;
+}
+
+.odds.cooler{
+    font-size: 24px;
+}
+
+#fifth{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
