@@ -9,7 +9,8 @@ body {
   background: #fff;
   margin: 0px auto;
   padding: 10px;
-  
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -17,12 +18,15 @@ body {
   /* border: 10px solid #fff; */
   font-size: larger;
   margin: 0px auto 8px auto;
+  height: 200px;
+  flex: 1 5 auto
 }
 
 .content {
   background: #e3f4ff;
   margin-bottom: 8px;
   padding: 16px 8px;
+  flex: 1 1 auto
   /* border-left: 10px solid #fff;
   border-right: 10px solid #fff; */
 }
@@ -31,7 +35,7 @@ body {
   background: #e3f4ff;
   text-align: center;
   padding: 8px;
- 
+  flex: 1 1 auto
   /* border: 10px solid #fff; */
 }
 
